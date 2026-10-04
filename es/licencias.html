@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Licencias y atribuciones · Boulder Tracker</title>
+<style>
+:root { --fondo: #F9F8F6; --acento: #D45500; --texto: #1B1F23; --suave: #5F6B70; --tarjeta: #FFFFFF; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--fondo); color: var(--texto); font: 17px/1.6 -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 20px 64px; }
+nav a { color: var(--acento); text-decoration: none; font-weight: 600; }
+article { background: var(--tarjeta); border-radius: 20px; padding: 28px 24px; margin-top: 16px; box-shadow: 0 6px 24px rgba(27,31,35,.06); }
+h1 { font-size: 1.7em; line-height: 1.25; margin: 0 0 .4em; color: var(--acento); }
+h2 { font-size: 1.2em; margin: 1.6em 0 .5em; }
+h3 { font-size: 1.05em; margin: 1.3em 0 .4em; }
+blockquote { margin: 0 0 1.2em; padding: 12px 16px; border-left: 4px solid #C8102E; background: #FDF2F3; border-radius: 0 12px 12px 0; }
+blockquote p { margin: 0; }
+ul, ol { padding-left: 1.4em; }
+li { margin: .3em 0; }
+a { color: var(--acento); }
+code { background: #F0EDE8; padding: 1px 5px; border-radius: 4px; font-size: .92em; }
+.tabla { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: .93em; }
+th, td { border: 1px solid #E1E7E7; padding: 6px 8px; text-align: left; vertical-align: top; }
+th { background: #F4F1EC; }
+footer { color: var(--suave); font-size: .9em; margin-top: 24px; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="../index.html">← Documentos legales</a></nav>
+<article>
+<h1>Boulder Tracker: avisos de terceros y atribuciones</h1>
+<p>Última actualización: 4 de octubre de 2026 (versión de la app 1.0.13).</p>
+<p>Boulder Tracker la publica <strong>Cristian Felipe Castro Ponce</strong>, con el nombre comercial <strong>BClabs</strong> (Villarrica, Chile). Contacto: vulcanoedicionessa@gmail.com</p>
+<p>Boulder Tracker incluye el software y los datos de terceros que se listan abajo. Cada elemento pertenece a sus respectivos dueños y se usa bajo la licencia indicada. Gracias a todos sus autores.</p>
+<p>La versión original de referencia es el documento en inglés <code>THIRD_PARTY_NOTICES.md</code> (raíz del repo). Versión publicada: https://vulcanoedicionessa.github.io/boulder-tracker-legal/es/licencias.html (inglés: https://vulcanoedicionessa.github.io/boulder-tracker-legal/en/licenses.html). La app muestra los mismos avisos en Ajustes → Acerca de → Licencias y atribuciones.</p>
+<blockquote>
+<p><strong>BORRADOR para revisión legal.</strong> Las versiones son las instaladas en el proyecto el 2026-10-04 (leídas de <code>package.json</code> y <code>node_modules</code>); las licencias son las que declara cada paquete. Antes de cada versión, regenera el inventario (ver «Mantenimiento» al final).</p>
+</blockquote>
+<h2>1. Datos</h2>
+<h3>1.1 Catálogo de gimnasios (todos los países salvo Chile): OpenStreetMap</h3>
+<p>Contiene información de OpenStreetMap, disponible bajo la Licencia de Base de Datos Abierta (ODbL) v1.0.</p>
+<p>© colaboradores de OpenStreetMap. https://www.openstreetmap.org/copyright</p>
+<p>Texto de la licencia: https://opendatacommons.org/licenses/odbl/1-0/</p>
+<p>El catálogo de gimnasios incluido en la app (archivos <code>src/data/gymCatalog/*.json</code>, uno por país) es una Base de Datos Derivada de OpenStreetMap y se ofrece bajo la ODbL v1.0 en: https://vulcanoedicionessa.github.io/boulder-tracker-legal/datos/. La app Boulder Tracker en sí (código e interfaz) es una obra separada y no se licencia bajo la ODbL. Los datos pueden estar incompletos o desactualizados; cualquiera puede corregirlos en https://www.openstreetmap.org.</p>
+<h3>1.2 Catálogo de gimnasios de Chile</h3>
+<p>Elaborado por BClabs a partir de información pública de cada gimnasio (nombre, dirección, sitio web, redes sociales, horarios). Es preliminar y no está verificado, y <strong>no incluye correos ni números móviles personales</strong>. Los nombres y marcas de los gimnasios pertenecen a sus dueños; que aparezcan en el catálogo no implica ninguna relación con ellos. Para pedir una corrección o el retiro de un gimnasio, escribe a vulcanoedicionessa@gmail.com con el nombre del gimnasio y lo que debe cambiar; respondemos en un máximo de 10 días hábiles y el cambio se publica en la siguiente versión de la app. No podemos borrar a distancia los datos ya guardados en los dispositivos de los usuarios.</p>
+<h2>2. Fuentes tipográficas</h2>
+<p><strong>Inter</strong>, © 2020 The Inter Project Authors (https://github.com/rsms/inter), con licencia SIL Open Font License, Versión 1.1 (https://openfontlicense.org/open-font-license-official-text/). Se incluye sin modificar mediante <code>@expo-google-fonts/inter</code> (MIT). La fuente no puede venderse por separado. El texto completo de la OFL acompaña este aviso en la pantalla de licencias de la app.</p>
+<h2>3. Íconos</h2>
+<ul>
+<li><strong>Lucide</strong> (https://lucide.dev), licencia ISC, Copyright (c) 2026 Lucide Icons and Contributors (paquete <code>lucide-react-native</code>).</li>
+<li>Íconos derivados de <strong>Feather</strong>, licencia MIT, Copyright (c) 2013-presente Cole Bemis.</li>
+</ul>
+<h2>4. Bibliotecas de software (dependencias directas)</h2>
+<p>Versiones instaladas el 2026-10-04. Todas exigen conservar el aviso de copyright y el texto de la licencia junto con la app distribuida. Las dependencias transitivas (unos 600 paquetes en el árbol de producción: en su mayoría MIT, más ISC, Apache-2.0, BSD-2/3-Clause, BlueOak-1.0.0, 0BSD, CC0 y Unlicense; ningún paquete GPL, AGPL ni LGPL) están en el <code>LICENSE</code> de cada paquete.</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Paquete</th>
+<th>Versión</th>
+<th>Licencia</th>
+<th>Titular del copyright</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>@expo-google-fonts/inter</td>
+<td>0.4.2</td>
+<td>MIT (paquete) y OFL-1.1 (fuente)</td>
+<td>Colaboradores de Expo; The Inter Project Authors</td>
+</tr>
+<tr>
+<td>@expo/vector-icons</td>
+<td>15.1.1</td>
+<td>MIT</td>
+<td>Joel Arvidsson y colaboradores</td>
+</tr>
+<tr>
+<td>@hookform/resolvers</td>
+<td>5.9.1</td>
+<td>MIT</td>
+<td>Beier (Bill) Luo</td>
+</tr>
+<tr>
+<td>@react-native-community/datetimepicker</td>
+<td>9.1.0</td>
+<td>MIT</td>
+<td>React Native Community</td>
+</tr>
+<tr>
+<td>@react-native-google-signin/google-signin</td>
+<td>16.1.5</td>
+<td>MIT</td>
+<td>Apptailor (servicio bajo términos de Google)</td>
+</tr>
+<tr>
+<td>expo</td>
+<td>57.0.26</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-camera</td>
+<td>57.0.6</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-constants</td>
+<td>57.0.20</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-document-picker</td>
+<td>57.0.3</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-file-system</td>
+<td>57.0.7</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-font</td>
+<td>57.0.4</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-haptics</td>
+<td>57.0.3</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-image</td>
+<td>57.0.5</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-image-manipulator</td>
+<td>57.0.20</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-image-picker</td>
+<td>57.0.20</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-keep-awake</td>
+<td>57.0.2</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-linear-gradient</td>
+<td>57.0.2</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-linking</td>
+<td>57.0.11</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-localization</td>
+<td>57.0.2</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-location</td>
+<td>57.0.20</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-network</td>
+<td>57.0.2</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-notifications</td>
+<td>57.0.21</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-router</td>
+<td>57.0.24</td>
+<td>MIT (declarada en <code>package.json</code>)</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-sharing</td>
+<td>57.0.22</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-sqlite</td>
+<td>57.0.3</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-status-bar</td>
+<td>57.0.1</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>expo-video</td>
+<td>57.0.5</td>
+<td>MIT</td>
+<td>650 Industries, Inc.</td>
+</tr>
+<tr>
+<td>lucide-react-native</td>
+<td>1.49.0</td>
+<td>ISC (+ MIT para íconos derivados de Feather)</td>
+<td>Lucide Icons and Contributors; Cole Bemis</td>
+</tr>
+<tr>
+<td>react</td>
+<td>19.2.3</td>
+<td>MIT</td>
+<td>Meta Platforms, Inc. y afiliadas</td>
+</tr>
+<tr>
+<td>react-hook-form</td>
+<td>7.89.0</td>
+<td>MIT</td>
+<td>Beier (Bill) Luo</td>
+</tr>
+<tr>
+<td>react-native</td>
+<td>0.86.3</td>
+<td>MIT</td>
+<td>Meta Platforms, Inc. y afiliadas</td>
+</tr>
+<tr>
+<td>react-native-gesture-handler</td>
+<td>2.32.0</td>
+<td>MIT</td>
+<td>Software Mansion</td>
+</tr>
+<tr>
+<td>react-native-google-mobile-ads</td>
+<td>17.2.0</td>
+<td>Apache-2.0</td>
+<td>Invertase Limited (SDK nativos de AdMob y UMP bajo términos de Google)</td>
+</tr>
+<tr>
+<td>react-native-purchases</td>
+<td>10.11.0</td>
+<td>MIT</td>
+<td>RevenueCat (servicio bajo sus propios términos)</td>
+</tr>
+<tr>
+<td>react-native-reanimated</td>
+<td>4.5.1</td>
+<td>MIT</td>
+<td>Software Mansion</td>
+</tr>
+<tr>
+<td>react-native-safe-area-context</td>
+<td>5.7.0</td>
+<td>MIT</td>
+<td>Th3rd Wave</td>
+</tr>
+<tr>
+<td>react-native-screens</td>
+<td>4.26.2</td>
+<td>MIT</td>
+<td>Software Mansion</td>
+</tr>
+<tr>
+<td>react-native-svg</td>
+<td>15.15.4</td>
+<td>MIT</td>
+<td>Horcrux</td>
+</tr>
+<tr>
+<td>react-native-worklets</td>
+<td>0.10.1</td>
+<td>MIT</td>
+<td>Software Mansion</td>
+</tr>
+<tr>
+<td>zod</td>
+<td>4.6.5</td>
+<td>MIT</td>
+<td>Colin McDonnell</td>
+</tr>
+<tr>
+<td>zustand</td>
+<td>5.0.15</td>
+<td>MIT</td>
+<td>Paul Henschel</td>
+</tr>
+</tbody>
+</table></div>
+<p>Código nativo propio (módulo del editor de video): <strong>AndroidX Media3</strong> (transformer, effect y common) 1.9.0, Apache-2.0, © The Android Open Source Project / Google. Media3 / ExoPlayer también llega mediante <code>expo-video</code>.</p>
+<p>Herramientas de desarrollo (no se distribuyen en la app): @types/better-sqlite3 9.6.0, @types/jest 30.0.0, @types/react 19.2.18, babel-jest 30.5.2, better-sqlite3 13.0.3, eslint 9.39.5, eslint-config-expo 57.0.2, jest 30.5.2 (todas MIT); typescript 6.0.3 (Apache-2.0).</p>
+<p>Nota: <code>@expo/vector-icons</code> figura como dependencia pero el código de la app no la importa. Se retirará, o se añadirán los avisos de sus fuentes de íconos, antes de la versión de producción.</p>
+<h3>Licencia MIT</h3>
+<p>Copyright (c) los titulares nombrados en la tabla anterior.</p>
+<p>Por la presente se concede permiso, libre de cargos, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados (el «Software»), para utilizar el Software sin restricción, incluyendo sin limitación los derechos a usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del Software, y a permitir a las personas a las que se les proporcione el Software a hacer lo mismo, sujeto a las siguientes condiciones: el aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software. EL SOFTWARE SE PROPORCIONA «COMO ESTÁ», SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO, SIN LIMITARSE A, GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS AUTORES O TITULARES DEL COPYRIGHT SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑO U OTRA RESPONSABILIDAD, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O CUALQUIER OTRO MOTIVO, DERIVADA DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O SU USO U OTRO TIPO DE ACCIONES EN EL SOFTWARE. (Traducción de cortesía; prevalece el texto original en inglés de <code>THIRD_PARTY_NOTICES.md</code>.)</p>
+<h3>Licencia ISC (Lucide)</h3>
+<p>Copyright (c) 2026 Lucide Icons and Contributors. Se permite usar, copiar, modificar y/o distribuir este software con cualquier fin, con o sin pago, siempre que el aviso de copyright anterior y este aviso de permiso aparezcan en todas las copias. EL SOFTWARE SE PROPORCIONA «COMO ESTÁ» Y EL AUTOR RENUNCIA A TODA GARANTÍA. Texto original en inglés en <code>THIRD_PARTY_NOTICES.md</code>.</p>
+<h3>Apache License, Versión 2.0</h3>
+<p>Aplica a react-native-google-mobile-ads, AndroidX Media3 / ExoPlayer y otros componentes Apache-2.0 (por ejemplo <code>@iabtcf/core</code>, y TypeScript solo en desarrollo). Texto completo: https://www.apache.org/licenses/LICENSE-2.0. Los archivos NOTICE de esos componentes se conservan en la pantalla de licencias de la app. Salvo que la ley lo exija o se acuerde por escrito, se distribuyen «COMO ESTÁN», sin garantías ni condiciones de ningún tipo.</p>
+<h3>SIL Open Font License 1.1 (Inter)</h3>
+<p>Copyright (c) 2020 The Inter Project Authors (https://github.com/rsms/inter). Este software de fuente tiene licencia SIL Open Font License, Versión 1.1. Texto completo y preguntas frecuentes: https://openfontlicense.org. <strong>[Pegar aquí y en el archivo de licencias de la app el texto íntegro de la OFL 1.1 antes de publicar: COMPLETAR]</strong></p>
+<h3>Otras licencias</h3>
+<p>ISC, BSD-2-Clause, BSD-3-Clause, 0BSD, BlueOak-1.0.0, CC0-1.0 y Unlicense: utilidades transitivas varias; ver el <code>LICENSE</code> de cada paquete. Dos elementos solo de compilación no se distribuyen en la app: <code>lightningcss</code> (MPL-2.0) y <code>caniuse-lite</code> (CC-BY-4.0). <code>node-forge</code> (BSD-3-Clause OR GPL-2.0) se usa bajo BSD-3-Clause y solo en herramientas de compilación.</p>
+<h2>5. Servicios sujetos a sus propios términos</h2>
+<p>Google Mobile Ads SDK / AdMob y User Messaging Platform; Google Sign-In y API de Google Drive (el uso de datos recibidos de las API de Google sigue la Política de datos de usuario de los servicios de API de Google, incluidos los requisitos de Uso Limitado); Google Play Billing; RevenueCat. La geocodificación inversa usa el servicio del sistema Android (Google) solo cuando pides a la app detectar tu ubicación.</p>
+<h2>6. Marcas</h2>
+<p>Google, AdMob, Google Drive, Google Play y Android son marcas de Google LLC. OpenStreetMap es una marca de la Fundación OpenStreetMap. Instagram y Facebook son marcas de Meta Platforms, Inc. RevenueCat es una marca de RevenueCat, Inc. Boulder Tracker no está afiliada, patrocinada ni respaldada por ninguna de ellas ni por ningún gimnasio del catálogo.</p>
+<h2>7. Reclamos de derechos de autor y marcas</h2>
+<p>Si crees que contenido de la app infringe tus derechos, escribe a vulcanoedicionessa@gmail.com indicando: tu nombre y contacto; la obra o marca protegida; dónde aparece en la app; una declaración de buena fe de que el uso no está autorizado y de que la información es exacta; y tu firma. Retiraremos o corregiremos sin demora el contenido infractor.</p>
+<h2>Mantenimiento</h2>
+<p>Antes de cada versión: (1) releer <code>package.json</code> y <code>node_modules/*/package.json</code> para versiones y licencias; (2) regenerar el inventario de licencias (por ejemplo con una herramienta tipo license-checker sobre el árbol de producción) y el inventario nativo (Gradle); (3) confirmar que la URL del catálogo ODbL está publicada; (4) actualizar este archivo, <code>THIRD_PARTY_NOTICES.md</code> y los textos de la pantalla de licencias (<code>docs/legal/review/08-textos-licencias-app.json</code>).</p>
+</article>
+<footer>Cristian Felipe Castro Ponce · <a href="mailto:vulcanoedicionessa@gmail.com">vulcanoedicionessa@gmail.com</a></footer>
+</main>
+</body>
+</html>

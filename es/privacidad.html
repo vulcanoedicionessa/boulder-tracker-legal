@@ -16,7 +16,7 @@ h2 { font-size: 1.2em; margin: 1.6em 0 .5em; }
 h3 { font-size: 1.05em; margin: 1.3em 0 .4em; }
 blockquote { margin: 0 0 1.2em; padding: 12px 16px; border-left: 4px solid #C8102E; background: #FDF2F3; border-radius: 0 12px 12px 0; }
 blockquote p { margin: 0; }
-ul { padding-left: 1.4em; }
+ul, ol { padding-left: 1.4em; }
 li { margin: .3em 0; }
 a { color: var(--acento); }
 code { background: #F0EDE8; padding: 1px 5px; border-radius: 4px; font-size: .92em; }
@@ -32,44 +32,165 @@ footer { color: var(--suave); font-size: .9em; margin-top: 24px; }
 <nav><a href="../index.html">← Documentos legales</a></nav>
 <article>
 <h1>Política de privacidad de Boulder Tracker</h1>
-<p><strong>Última actualización:</strong> 2 de octubre de 2026</p>
-<blockquote><p>Versión 1.0 · pendiente de revisión legal final.</p></blockquote>
-<h2>1. Quiénes somos</h2>
-<p>Boulder Tracker (la «app») es una aplicación para registrar en video tus bloques de escalada, organizarlos por gimnasio y grado y medir tu progreso. La publica <strong>Cristian Felipe Castro Ponce (BClabs)</strong>, con domicilio en <strong>Villarrica, Chile</strong> («nosotros»). Contacto para todo lo relacionado con tus datos: <strong>vulcanoedicionessa@gmail.com</strong>.</p>
-<h2>2. Resumen</h2>
-<ul><li>Tus videos, notas, gimnasios y estadísticas <strong>se guardan en tu teléfono</strong>. Boulder Tracker <strong>no tiene servidores propios</strong> ni cuentas de usuario propias.</li><li>Si lo activas, puedes respaldar tus videos en <strong>tu propio Google Drive</strong>.</li><li>La versión gratuita muestra <strong>anuncios de Google AdMob</strong>. Los anuncios nunca ven tus videos, notas ni gimnasios.</li><li>Premium (sin anuncios, con respaldo en la nube) se paga con <strong>Google Play</strong> y se gestiona con <strong>RevenueCat</strong>.</li><li>No vendemos tus datos.</li></ul>
-<h2>3. Datos que se tratan</h2>
-<h3>3.1 Datos que permanecen en tu dispositivo</h3>
-<p>Videos y miniaturas, grados, intentos, notas, gimnasios que registras (nombre, dirección, contacto, redes), tu perfil (nombre, ubicación, biografía y avatar si los completas), ajustes y logros. <strong>No salen del teléfono</strong> salvo lo que se explica en las secciones 3.2 a 3.5.</p>
-<h3>3.2 Permisos del dispositivo</h3>
-<ul><li><strong>Cámara y micrófono:</strong> para grabar videos. Se piden al usar el grabador.</li><li><strong>Selector de fotos y videos del sistema:</strong> para importar videos o elegir una imagen. La app no tiene acceso a tu galería: solo recibe lo que eliges.</li><li><strong>Ubicación aproximada:</strong> solo cuando pulsas «detectar ubicación» al crear un gimnasio, para completar país, región y ciudad. Las coordenadas se envían al servicio de geocodificación de Android/Google para convertirlas en un lugar y <strong>no se guardan en nuestros sistemas</strong>.</li><li><strong>Notificaciones:</strong> recordatorios locales de entrenamiento, si los activas. No usamos notificaciones remotas.</li></ul>
-<h3>3.3 Google Drive (opcional)</h3>
-<p>Si conectas tu cuenta de Google, la app puede subir tus videos y un archivo con tus datos a una carpeta «Boulder Tracker» de <strong>tu</strong> Drive, y descargarlos de vuelta. Usa solo el permiso <code>drive.file</code>: la app solo ve los archivos que ella misma crea. Recibimos tu correo para mostrarte qué cuenta está conectada. Los archivos quedan en tu Drive; nosotros no los vemos ni los almacenamos. Puedes desconectar la cuenta en Ajustes y borrar la carpeta desde Drive cuando quieras.</p>
-<p>El uso y la transferencia a cualquier otra app de la información recibida de las API de Google respetará la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de API de Google</a>, incluidos los requisitos de Uso Limitado.</p>
-<h3>3.4 Publicidad (versión gratuita)</h3>
-<p>Usamos <strong>Google AdMob</strong>. AdMob puede recopilar y usar el <strong>identificador de publicidad</strong> de tu dispositivo, tu dirección IP, datos del dispositivo, ubicación aproximada derivada de la IP, información de uso de anuncios y datos de diagnóstico, para mostrar y medir anuncios y prevenir fraude. Según tu país, te pediremos consentimiento mediante el formulario de Google (UMP) y, si no lo das, solo se muestran anuncios no personalizados. Puedes cambiar tu decisión en <strong>Ajustes → Privacidad y anuncios</strong>, restablecer o borrar el identificador de publicidad en los ajustes de Android, o quitar los anuncios con Premium. Más información: <a href="https://policies.google.com/technologies/partner-sites">Cómo usa Google los datos</a>.</p>
-<h3>3.5 Premium y compras</h3>
-<p>Las suscripciones se cobran con <strong>Google Play</strong>; nosotros <strong>no recibimos tus datos de pago</strong>. Usamos <strong>RevenueCat</strong> para validar tu suscripción: recibe un <strong>identificador anónimo</strong> generado para ti, información de la compra (producto, fechas, estado), datos básicos del dispositivo y tu dirección IP. No le enviamos tu correo, nombre, videos ni notas. Más información: <a href="https://www.revenuecat.com/privacy">Política de privacidad de RevenueCat</a>.</p>
-<h2>4. Para qué usamos los datos y base legal</h2>
-<div class="tabla"><table><thead><tr><th>Finalidad</th><th>Datos</th><th>Base</th></tr></thead><tbody><tr><td>Ofrecer las funciones de la app</td><td>Los de 3.1 y 3.2</td><td>Ejecución del servicio</td></tr><tr><td>Respaldo en Drive</td><td>Cuenta de Google, archivos</td><td>Tu consentimiento (lo activas tú)</td></tr><tr><td>Mostrar anuncios</td><td>Los de 3.4</td><td>Tu consentimiento donde la ley lo exige; interés legítimo en el resto</td></tr><tr><td>Gestionar Premium</td><td>Los de 3.5</td><td>Ejecución del contrato</td></tr><tr><td>Cumplir obligaciones legales y de seguridad</td><td>Los necesarios</td><td>Obligación legal</td></tr></tbody></table></div>
-<h2>5. Con quién se comparten</h2>
-<ul><li><strong>Google</strong> (AdMob, Google Play, Google Drive y servicios de ubicación), según lo descrito.</li><li><strong>RevenueCat, Inc.</strong> (validación de suscripciones).</li><li>Autoridades, cuando una ley lo exija.</li></ul>
-<p>No vendemos datos personales. Estos proveedores pueden tratar datos fuera de tu país (por ejemplo, en Estados Unidos) con las garantías que establecen sus políticas.</p>
-<h2>6. Cookies y tecnologías similares</h2>
-<p>La app <strong>no usa cookies</strong>. Los identificadores de publicidad y de compra descritos arriba cumplen una función similar y se explican en las secciones 3.4 y 3.5. Este sitio web no usa cookies ni herramientas de analítica.</p>
+<p><strong>Vigente desde:</strong> 4 de octubre de 2026 · <strong>Versión:</strong> 2.1 (edad mínima de 14 años y anuncios siempre no personalizados; reemplaza a la v2.0 del 4 de octubre de 2026)</p>
+<h2>1. Resumen</h2>
+<ul>
+<li>Tus videos, notas, gimnasios y estadísticas <strong>se guardan solo en tu teléfono</strong>. Boulder Tracker no tiene servidores propios, ni cuentas de usuario propias, ni analítica propia.</li>
+<li>Si lo activas, puedes respaldar tus datos en <strong>tu propio Google Drive</strong> (función Premium).</li>
+<li>La versión gratuita muestra <strong>anuncios de Google AdMob</strong>, siempre <strong>no personalizados</strong> (no se te perfila para publicidad), y solo si lo permites cuando Google te lo pregunte (donde la ley lo exige). Los anuncios nunca ven tus videos, notas ni gimnasios.</li>
+<li>Premium (sin anuncios y con respaldo en la nube) se paga con <strong>Google Play</strong> y se valida con <strong>RevenueCat</strong>.</li>
+<li><strong>No vendemos tus datos</strong> a cambio de dinero. Puedes borrarlos cuando quieras.</li>
+<li>Boulder Tracker es para personas de <strong>14 años o más</strong>. Si tienes entre 14 y 17 años, lee la sección 11.</li>
+</ul>
+<h2>2. Quién es responsable</h2>
+<p>El responsable del tratamiento de datos es <strong>Cristian Felipe Castro Ponce</strong>, persona natural, nombre comercial <strong>BClabs</strong>, con domicilio en <strong>Villarrica, Chile</strong> («nosotros»), que publica la app Boulder Tracker en Google Play.</p>
+<p><strong>Contacto de privacidad y derechos:</strong> <strong>vulcanoedicionessa@gmail.com</strong> (asunto «Privacidad»). Este mismo correo es el canal para consultas de protección de datos en todos los países (incluido el «encarregado» de la LGPD de Brasil).</p>
+<h2>3. Qué datos tratamos</h2>
+<h3>3.1 Datos que permanecen en tu teléfono</h3>
+<p>Videos y miniaturas, grados, intentos, notas, gimnasios que registras (nombre, dirección, <strong>coordenadas</strong>, teléfono, web y redes), tu perfil (nombre, ubicación, biografía y avatar, si los completas), ajustes y logros. Están en el almacenamiento privado de la app y <strong>no los recibimos</strong>. Si grabas a otras personas o incluyes sus datos, eres responsable de respetar su privacidad y de lo que compartas o exportes.</p>
+<p>Si usas «Exportar respaldo» o compartes un video, el archivo sale del teléfono hacia donde tú lo envíes; esa decisión es tuya.</p>
+<h3>3.2 Permisos del teléfono</h3>
+<ul>
+<li><strong>Cámara y micrófono:</strong> solo para grabar videos (con audio) dentro de la app.</li>
+<li><strong>Selector de fotos y videos del sistema:</strong> para importar videos o elegir una imagen. La app no tiene acceso a tu galería, solo a lo que eliges.</li>
+<li><strong>Ubicación aproximada:</strong> solo cuando pulsas «detectar ubicación» al crear un gimnasio. La app lee tu ubicación aproximada una vez y la convierte en país, región, ciudad y dirección con el servicio de geocodificación del sistema Android/Google, que puede recibir las coordenadas. Las coordenadas se guardan <strong>en tu teléfono</strong>, en la ficha del gimnasio, y viajan a tu Drive si activas el respaldo. Nosotros no las recibimos. Si tocas «Ver en el mapa», se abre Google Maps con esa dirección o coordenadas.</li>
+<li><strong>Notificaciones:</strong> recordatorios de entrenamiento <strong>locales</strong>, si los activas. No usamos notificaciones remotas.</li>
+<li><strong>Internet y estado de red:</strong> para Drive, anuncios y Premium.</li>
+<li><strong>ID de publicidad</strong> (permiso <code>AD_ID</code>): lo declara la librería de anuncios; ver sección 3.5.</li>
+</ul>
+<h3>3.3 Catálogo de gimnasios</h3>
+<p>La app incluye un catálogo de gimnasios de escalada: Chile (catálogo propio con información pública) y otros países con datos de <strong>OpenStreetMap</strong> (© colaboradores de OpenStreetMap, licencia ODbL). Son datos de negocios (nombre, ciudad, dirección, sitio web, Instagram y, si es un teléfono fijo comercial, teléfono). <strong>No incluimos correos ni teléfonos móviles de gimnasios</strong> en el catálogo de Chile. Los datos vienen dentro de la app y no se envía nada tuyo para obtenerlos. Pueden estar incompletos o desactualizados. Si eres un gimnasio y quieres corregir o retirar tus datos, escríbenos.</p>
+<h3>3.4 Respaldo en Google Drive (opcional, Premium)</h3>
+<p>Si conectas tu cuenta de Google, la app recibe <strong>tu correo electrónico</strong> (solo para mostrar qué cuenta está conectada) y puede subir y descargar archivos de una carpeta «Boulder Tracker» de <strong>tu</strong> Drive: tus videos y un archivo con los datos de la app (perfil, notas, gimnasios con sus coordenadas y estadísticas). Usa solo el permiso <code>drive.file</code>: la app solo ve los archivos que ella misma crea. Los archivos quedan en tu Drive; nosotros no los vemos ni los almacenamos.</p>
+<p><strong>Uso limitado de datos de Google.</strong> El uso y la transferencia a cualquier otra app de la información recibida de las API de Google respetará la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de API de Google</a>, incluidos los requisitos de Uso Limitado («Boulder Tracker's use and transfer to any other app of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements»). En concreto: usamos los datos de Drive <strong>solo</strong> para ofrecerte el respaldo y la restauración que ves en la app; <strong>no</strong> los transferimos a terceros (salvo para cumplir la ley, por seguridad o con tu consentimiento); <strong>no</strong> los usamos para publicidad; <strong>ninguna persona</strong> los lee (salvo con tu consentimiento expreso, por seguridad o por ley); y <strong>no</strong> los usamos para desarrollar, mejorar ni entrenar modelos de inteligencia artificial o aprendizaje automático.</p>
+<h3>3.5 Publicidad (versión gratuita)</h3>
+<p>Usamos <strong>Google AdMob</strong>. Cuando se muestran anuncios, Google puede recopilar el <strong>identificador de publicidad</strong>, tu dirección IP, datos del dispositivo, ubicación aproximada derivada de la IP, información sobre tu interacción con anuncios y datos de diagnóstico, para mostrar y medir anuncios y evitar fraude. <strong>Los anuncios son siempre no personalizados</strong>: la app le indica a Google que trate a todos los usuarios como menores de la edad de consentimiento y que solo muestre anuncios no personalizados, así que no se usan tus intereses ni tu historial para elegirlos (se basan en el contexto, como el contenido de la app, y en límites de frecuencia). <strong>Google actúa como responsable independiente</strong> de esos datos (<a href="https://policies.google.com/technologies/partner-sites">cómo usa Google los datos</a>). Nunca le enviamos tus videos, notas, gimnasios ni tu correo.
+- <strong>Consentimiento.</strong> En el Espacio Económico Europeo, Reino Unido y Suiza, y donde otras leyes lo exijan (por ejemplo, algunos estados de EE. UU.), Google muestra su formulario de consentimiento (UMP) antes de pedir anuncios. <strong>Si no hay consentimiento utilizable, la app no solicita anuncios.</strong> Puedes cambiar tu decisión en cualquier momento en <strong>Ajustes → Privacidad y anuncios</strong>.
+- Puedes restablecer o eliminar el identificador de publicidad en los ajustes de Android, o quitar los anuncios con Premium (con Premium la app no inicia el SDK de anuncios).
+- <strong>Anuncios no personalizados para todos.</strong> Como la app admite desde los 14 años y no puede verificar la edad, configuramos <em>todos</em> los anuncios como no personalizados (marcamos la app como «tratar a los usuarios como menores de la edad de consentimiento»), solicitamos solo anuncios no personalizados y limitamos el contenido a clasificación PG. Eso <strong>no equivale a cero datos</strong>: Google sigue pudiendo tratar el identificador de publicidad, la IP y datos del dispositivo para entregar y medir anuncios, limitar su repetición, evitar fraude y cumplir la ley, bajo su propia responsabilidad. No hacemos perfiles publicitarios. Con Premium, la app no inicia el SDK de anuncios.
+- No marcamos la app como «dirigida a niños» (no lo está: la edad mínima es 14 años).</p>
+<h3>3.6 Premium y compras</h3>
+<p>Las suscripciones se cobran con <strong>Google Play</strong>: no recibimos tus datos de pago. Usamos <strong>RevenueCat, Inc.</strong>, proveedor que actúa por encargo nuestro, para validar tu suscripción. Recibe un <strong>identificador anónimo</strong> generado para ti (no lo vinculamos a tu correo ni a tu cuenta de Google), la información de la compra (producto, fechas, estado), datos básicos del dispositivo y tu dirección IP. No le enviamos tu correo, nombre, videos ni notas. Más información: <a href="https://www.revenuecat.com/privacy">política de privacidad de RevenueCat</a>. La suscripción se cancela en Google Play → Pagos y suscripciones; desinstalar la app no la cancela.</p>
+<h3>3.7 Lo que no hacemos</h3>
+<p>No usamos analítica propia, no hacemos perfiles ni decisiones automatizadas con efectos jurídicos sobre ti, no tratamos datos sensibles a sabiendas y no usamos tus datos para entrenar IA. Los anuncios que mostramos son no personalizados: no hay perfilado publicitario a partir de tus datos.</p>
+<h2>4. Para qué usamos los datos y en qué base legal</h2>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Finalidad</th>
+<th>Datos</th>
+<th>Base legal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ofrecer las funciones de la app (se ejecutan en tu teléfono)</td>
+<td>Los de 3.1 y 3.2 (no los recibimos)</td>
+<td>Ejecución del servicio que pides</td>
+</tr>
+<tr>
+<td>Detectar tu ubicación al crear un gimnasio</td>
+<td>Ubicación aproximada</td>
+<td>Tu consentimiento (permiso de Android)</td>
+</tr>
+<tr>
+<td>Respaldo en Drive</td>
+<td>Correo, archivos, datos de la app</td>
+<td>Tu consentimiento (lo activas tú y lo retiras desconectando)</td>
+</tr>
+<tr>
+<td>Mostrar y medir anuncios (siempre no personalizados)</td>
+<td>Los de 3.5</td>
+<td>Tu consentimiento (UMP) en EEE/Reino Unido/Suiza y donde se exija; en otros lugares, la base que Google determine para sus propios fines</td>
+</tr>
+<tr>
+<td>Gestionar Premium y prevenir fraude en compras</td>
+<td>Los de 3.6</td>
+<td>Ejecución del contrato; interés legítimo en prevenir fraude</td>
+</tr>
+<tr>
+<td>Responder consultas y solicitudes de derechos</td>
+<td>Tu correo y tu mensaje</td>
+<td>Obligación legal; interés legítimo en atender a los usuarios</td>
+</tr>
+<tr>
+<td>Cumplir leyes, defender reclamos y seguridad</td>
+<td>Los necesarios</td>
+<td>Obligación legal; interés legítimo</td>
+</tr>
+</tbody>
+</table></div>
+<p>Brasil (LGPD): consentimiento (art. 7, I), cumplimiento de obligación legal (art. 7, II), ejecución de contrato (art. 7, V) e interés legítimo (art. 7, IX). Chile (Ley 19.628 y Ley 21.719): consentimiento, ejecución de contrato, obligación legal e interés legítimo.</p>
+<p>Retirar el consentimiento no afecta el tratamiento anterior. <strong>No estás obligado</strong> a darnos datos para usar la app: si no consientes los anuncios, no se muestran; si no conectas Drive, no hay respaldo en la nube.</p>
+<h2>5. Con quién compartimos los datos</h2>
+<ul>
+<li><strong>Google LLC / Google Ireland Ltd.</strong> (Google Play, AdMob, UMP, Drive, Maps y servicios de ubicación), según lo descrito arriba.</li>
+<li><strong>RevenueCat, Inc.</strong> (validación de suscripciones; por encargo nuestro).</li>
+<li><strong>Proveedor de alojamiento de esta página web</strong> (GitHub Pages), que puede registrar tu IP al visitarla.</li>
+<li><strong>Autoridades</strong>, cuando una ley lo exija, y asesores profesionales sujetos a confidencialidad.</li>
+</ul>
+<p>No vendemos datos personales a cambio de dinero. Como solo pedimos anuncios no personalizados, no «compartimos» datos para publicidad conductual entre contextos; aun así, la entrega de anuncios por parte de Google puede implicar tratamientos que Google realiza por su cuenta (sección 10).</p>
+<h2>6. Transferencias internacionales</h2>
+<p>Estamos en Chile. Google y RevenueCat pueden tratar datos en Estados Unidos y otros países, que pueden no tener el mismo nivel de protección que el tuyo. Cuando la ley lo exige nos apoyamos en garantías adecuadas: el <strong>Marco de Privacidad de Datos UE-EE. UU.</strong> (y sus extensiones para Reino Unido y Suiza) cuando el proveedor está certificado, y <strong>cláusulas contractuales tipo</strong> de la Comisión Europea (con el addendum del Reino Unido cuando corresponda) en los demás casos. Para Brasil aplicamos el art. 33 de la LGPD (cláusulas contractuales y certificaciones) y para Chile, las reglas de transferencia de la Ley 21.719. Puedes pedir más información en el correo de contacto.</p>
 <h2>7. Cuánto tiempo se conservan</h2>
-<ul><li>Datos locales: hasta que los borres o desinstales la app.</li><li>Archivos en tu Drive: hasta que los borres tú.</li><li>Datos en AdMob y RevenueCat: según las políticas de esos proveedores. Si pides la eliminación, te ayudamos a gestionarla con ellos.</li><li>No conservamos copias de tus datos en servidores propios.</li></ul>
-<h2>8. Tus derechos</h2>
-<p>Según tu país tienes derecho de <strong>acceso, rectificación, supresión, oposición, limitación y portabilidad</strong>, a retirar el consentimiento, y a reclamar ante la autoridad de protección de datos. En Chile aplican la Ley 19.628 y, desde el 1 de diciembre de 2026, la Ley 21.719; en la Unión Europea, el RGPD; en California, la CCPA. Para ejercerlos, escribe a <strong>vulcanoedicionessa@gmail.com</strong>; respondemos en los plazos legales. Como la mayoría de tus datos están solo en tu teléfono, puedes ejercer gran parte de ellos directamente desde la app (editar, exportar, borrar).</p>
-<p><strong>Cómo borrar tus datos:</strong> borra videos y gimnasios desde la app; usa «Quitar de Drive» o borra la carpeta «Boulder Tracker» en tu Drive; desconecta tu cuenta en Ajustes; desinstala la app. Para los datos de anuncios y compras, gestiona tu identificador de publicidad en Android y escríbenos para coordinar con RevenueCat.</p>
-<h2>9. Menores</h2>
-<p>Boulder Tracker <strong>no está dirigida a menores de 13 años</strong> y no recopilamos datos de menores de esa edad a sabiendas. Si crees que un menor nos dio datos, escríbenos y los eliminaremos. En algunos países la edad mínima de consentimiento es mayor (hasta 16 años).</p>
-<h2>10. Seguridad</h2>
-<p>Los datos se guardan en el almacenamiento privado de la app en tu teléfono. Las comunicaciones con Google, AdMob y RevenueCat usan conexiones cifradas. Ningún sistema es infalible; protege tu teléfono y tu cuenta de Google.</p>
-<h2>11. Cambios</h2>
-<p>Si cambiamos esta política publicaremos la nueva versión aquí con su fecha y, si el cambio es importante, te avisaremos en la app.</p>
-<h2>12. Contacto</h2>
-<p><strong>Cristian Felipe Castro Ponce</strong> · <strong>vulcanoedicionessa@gmail.com</strong> · <strong>Villarrica, Chile</strong></p>
+<ul>
+<li><strong>Datos en tu teléfono:</strong> hasta que los borres o desinstales la app.</li>
+<li><strong>Archivos en tu Drive:</strong> hasta que los borres tú.</li>
+<li><strong>AdMob/Google:</strong> según las políticas de retención de Google; nosotros no los guardamos.</li>
+<li><strong>RevenueCat:</strong> mientras tu ID anónimo esté asociado a compras necesarias para validar tu suscripción y para obligaciones legales del proveedor; puedes pedir su eliminación por correo.</li>
+<li><strong>Mensajes que nos envías:</strong> hasta 24 meses después del último contacto, o más si la ley lo exige.</li>
+<li><strong>Registro de solicitudes de derechos:</strong> 3 años, para acreditar su cumplimiento.</li>
+</ul>
+<h2>8. Tus derechos y cómo ejercerlos</h2>
+<p>Según tu país tienes derecho a <strong>acceder</strong> a tus datos, <strong>rectificarlos</strong>, <strong>suprimirlos</strong>, <strong>oponerte</strong>, <strong>limitar o bloquear</strong> el tratamiento, a la <strong>portabilidad</strong>, a <strong>retirar tu consentimiento</strong> cuando quieras, a no ser objeto de decisiones automatizadas que te afecten significativamente y a <strong>reclamar ante la autoridad</strong> de protección de datos de tu país.</p>
+<p><strong>Cómo ejercerlos:</strong> escribe a <strong>vulcanoedicionessa@gmail.com</strong> con el asunto «Privacidad: derechos». Podemos pedirte datos mínimos para verificar tu identidad. Respondemos <strong>sin demora injustificada y, en general, dentro de 30 días corridos</strong> (o el plazo menor que fije la ley, por ejemplo 15 días en Brasil), prorrogable cuando la ley lo permita. Es gratis, salvo solicitudes manifiestamente infundadas o excesivas. Como casi todos tus datos están solo en tu teléfono, puedes ejercer la mayoría directamente en la app (editar, exportar, borrar).</p>
+<p><strong>Cómo borrar tus datos</strong>
+1. <strong>En la app:</strong> borra videos, gimnasios y notas, y edita o vacía tu perfil.
+2. <strong>Drive:</strong> en la sección de copia en la nube usa «Quitar de Drive» o desconecta la cuenta, y borra la carpeta «Boulder Tracker» en drive.google.com. Para revocar el acceso: myaccount.google.com/permissions.
+3. <strong>Teléfono:</strong> borra los datos de la app en los ajustes de Android o desinstálala. La app no permite copias de seguridad de Android.
+4. <strong>Anuncios:</strong> restablece o elimina el ID de publicidad en Android y cambia tu decisión en Ajustes → Privacidad y anuncios.
+5. <strong>Compras:</strong> pídenos por correo la eliminación de tu ID anónimo y la coordinaremos con RevenueCat; cancela la suscripción en Google Play.</p>
+<h2>9. Usuarios en la UE/EEE, Reino Unido y Suiza</h2>
+<ul>
+<li><strong>Responsable:</strong> el indicado en la sección 2.</li>
+<li><strong>Representante en la UE/UK (art. 27 RGPD / UK GDPR):</strong> <strong>aún no designado</strong>. Hasta que se designe, <strong>la app aún no se ofrece en la UE/EEE ni en el Reino Unido</strong>; esta sección se completará antes de ofrecerla en esos territorios.</li>
+<li><strong>Bases jurídicas:</strong> las de la sección 4 (consentimiento para anuncios, Drive y ubicación; ejecución del contrato para Premium; interés legítimo para seguridad y fraude).</li>
+<li><strong>Consentimiento de anuncios:</strong> se pide con el formulario de Google (UMP), aunque los anuncios sean siempre no personalizados. Puedes retirarlo en Ajustes → Privacidad y anuncios. Si no consientes, no se solicitan anuncios; o puedes contratar Premium.</li>
+<li><strong>Adolescentes:</strong> ver sección 11. La edad para consentir por sí mismo el tratamiento de datos en servicios de la sociedad de la información varía entre 13 y 16 años según el país de la UE (art. 8 RGPD) y es 13 en el Reino Unido. Como la app no verifica la edad, no basamos en el consentimiento del menor ningún tratamiento propio que no sea necesario para el servicio, y los anuncios son no personalizados.</li>
+<li><strong>Transferencias:</strong> ver sección 6.</li>
+<li><strong>Derechos y plazos:</strong> respondemos en un mes (ampliable dos meses en casos complejos; 30 días en Suiza).</li>
+<li><strong>Brechas:</strong> si una brecha implica riesgo para ti, la notificaremos a la autoridad en 72 horas y a ti sin demora indebida cuando corresponda.</li>
+<li><strong>Reclamaciones:</strong> ante la autoridad de tu país de residencia, trabajo o lugar de la presunta infracción (p. ej. AEPD, CNIL, Garante, ICO en el Reino Unido, PFPDT/FDPIC en Suiza).</li>
+</ul>
+<h2>10. Brasil, Chile y California/EE. UU.</h2>
+<p><strong>Brasil (LGPD).</strong> Tienes los derechos del art. 18: confirmación del tratamiento, acceso, corrección, anonimización o eliminación, portabilidad, información sobre compartición y revocación del consentimiento. Canal del «encarregado»: el correo de la sección 2. Autoridad: ANPD.</p>
+<p><strong>Chile (Ley 19.628 y Ley 21.719).</strong> Tienes derechos de acceso, rectificación, supresión, oposición, bloqueo y portabilidad. La Ley 21.719 entra en vigencia el 1 de diciembre de 2026 y crea la Agencia de Protección de Datos Personales, ante la cual puedes reclamar. Sobre menores de edad, ver la sección 11.</p>
+<p><strong>California y otros estados de EE. UU. (CCPA/CPRA y leyes estatales),</strong> en la medida en que nos alcancen:
+- <em>Categorías recopiladas en los últimos 12 meses:</em> identificadores (ID de publicidad, ID anónimo de compra, IP); actividad en internet (interacción con anuncios); ubicación aproximada; información comercial (historial de la suscripción); y, solo si conectas Drive, tu correo. No recopilamos información personal sensible a sabiendas.
+- <em>Fuentes:</em> tú, tu dispositivo, Google Play y AdMob. <em>Finalidades:</em> sección 4. <em>Divulgación:</em> a proveedores de servicios (RevenueCat, Google) y a Google como tercero publicitario.
+- <em>Venta y compartición:</em> no vendemos tu información a cambio de dinero. Como solo pedimos anuncios no personalizados, no hacemos publicidad conductual entre contextos con tus datos. Si tu estado te da derecho a optar por no participar, puedes ejercerlo en Ajustes → Privacidad y anuncios (donde Google ofrezca el formulario), en los ajustes de Android o con Premium. No vendemos ni compartimos datos de menores de 16 años. Las apps móviles no reciben la señal «Global Privacy Control» del navegador; respetamos las opciones anteriores.
+- <em>Derechos:</em> conocer, acceder, corregir, borrar, optar por no vender/compartir, portabilidad y no discriminación. Pídelo por correo (puedes usar un agente autorizado). Respondemos en 45 días (prorrogables otros 45 con aviso). Puedes apelar una negativa respondiendo a nuestro correo.</p>
+<h2>11. Edad mínima (14 años) y datos de adolescentes</h2>
+<p><strong>Edad mínima.</strong> Boulder Tracker es para personas de <strong>14 años o más</strong> y <strong>no está dirigida a menores de 14 años</strong>. No recopilamos datos de menores de 14 años a sabiendas. La app <strong>no verifica la edad</strong>: la edad es una declaración tuya. Si crees que un menor de 14 años nos ha dado datos, escríbenos y los eliminaremos.</p>
+<p><strong>Si tienes entre 14 y 17 años.</strong>
+- Puedes usar la app gratuita. Casi todos tus datos están solo en tu teléfono y no los recibimos.
+- Los anuncios que ves son <strong>siempre no personalizados</strong> (sección 3.5). No vendemos tus datos ni los usamos para publicidad dirigida.
+- <strong>Premium:</strong> si eres menor de 18 años, solo puedes contratarlo con la <strong>autorización de tu madre, padre o tutor</strong>, o si lo compra un adulto con su propia cuenta de Google Play, como exigen las condiciones de Google Play y la ley de consumo. El respaldo en Drive exige una cuenta de Google que cumpla las condiciones de edad de Google.
+- Te recomendamos hablar con tu madre, padre o tutor antes de conectar Drive, usar la ubicación o grabar a otras personas.</p>
+<p><strong>Madre, padre o tutor.</strong> Puedes escribir a <strong>vulcanoedicionessa@gmail.com</strong> (asunto «Privacidad: menor») para consultar, rectificar o pedir la eliminación de los datos de un menor que tengamos (por ejemplo, un mensaje suyo o su ID anónimo de compra en RevenueCat); coordinaremos la eliminación con RevenueCat. Podemos pedirte datos mínimos para verificar la relación. Los datos en el teléfono del menor (videos, notas, perfil) se borran desde la app o desde los ajustes de Android (sección 8); los archivos de Drive los gestiona la cuenta de Google del menor.</p>
+<p><strong>Qué dicen las leyes (resumen).</strong>
+- <em>Chile (Ley 19.628, Ley 21.719 y Ley 21.430):</em> los menores de 14 años necesitan el consentimiento de sus padres o representantes; los adolescentes de 14 a 17 años pueden, en general, consentir por sí mismos, salvo ciertos datos sensibles, y el interés superior y la autonomía progresiva guían todo tratamiento. No tratamos datos sensibles a sabiendas.
+- <em>UE/Reino Unido:</em> el RGPD (art. 8) permite que cada país fije entre 13 y 16 años la edad para consentir; el Reino Unido aplica el <em>Children's Code</em> a servicios que puedan usar menores. Hoy la app no se ofrece en esos territorios.
+- <em>Brasil:</em> la LGPD (art. 14) y el ECA Digital (Ley 15.211/2025) exigen proteger el interés superior de niños y adolescentes; aplicamos anuncios no personalizados y evitamos recopilar datos innecesarios.
+- <em>EE. UU.:</em> la COPPA protege a menores de 13 años, que quedan fuera de la app; algunas leyes estatales protegen a adolescentes (por ejemplo, limitando la publicidad dirigida), y por eso no hacemos publicidad dirigida.</p>
+<h2>12. Cookies y tecnologías similares</h2>
+<p>La app <strong>no usa cookies</strong>. Los identificadores de publicidad y de compra cumplen una función similar y se explican en las secciones 3.5 y 3.6; el acceso del SDK de anuncios al identificador de tu dispositivo depende de tu consentimiento donde la ley lo exige. Esta página web no usa cookies ni analítica propia.</p>
+<h2>13. Seguridad</h2>
+<p>Tus datos se guardan en el almacenamiento privado de la app (excluido de las copias de seguridad de Android). Las comunicaciones con Google, AdMob y RevenueCat usan conexiones cifradas (HTTPS/TLS). Los datos en tu teléfono dependen de su seguridad (bloqueo de pantalla, actualizaciones): la app no los cifra por sí misma. Ningún sistema es infalible. Si ocurre una brecha que te afecte y la ley lo exige, te avisaremos a ti y a la autoridad en los plazos legales. Para reportar una vulnerabilidad: vulcanoedicionessa@gmail.com.</p>
+<h2>14. Cambios en esta política</h2>
+<p>Si la cambiamos, publicaremos la nueva versión aquí con su fecha de vigencia. Si el cambio es importante te avisaremos en la app antes de aplicarlo y, si cambia la finalidad de un tratamiento basado en consentimiento, te lo pediremos de nuevo. Versiones anteriores: a pedido por correo.</p>
+<h2>15. Contacto</h2>
+<p><strong>Cristian Felipe Castro Ponce (BClabs)</strong> · Villarrica, Chile · <strong>vulcanoedicionessa@gmail.com</strong></p><p><em>Los datos de identificación completos del titular se entregan a solicitud, escribiendo al correo de contacto.</em></p>
 </article>
 <footer>Cristian Felipe Castro Ponce · <a href="mailto:vulcanoedicionessa@gmail.com">vulcanoedicionessa@gmail.com</a></footer>
 </main>
